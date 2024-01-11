@@ -1,0 +1,1 @@
+attribute @a[team=superzombie,limit=1,sort=random] generic.max_health base set 16
