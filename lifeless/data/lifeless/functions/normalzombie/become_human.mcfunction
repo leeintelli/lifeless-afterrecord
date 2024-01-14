@@ -2,3 +2,4 @@ execute as @a[team=human] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:to
 execute as @a[team=human] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 2 positioned as @s if entity @a[team=normalzombie,distance=..10,limit=1,sort=nearest] run team join human @a[team=normalzombie,distance=..10,limit=1,sort=nearest]
 execute as @a[team=human] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 2 run item replace entity @s weapon.mainhand with air
 scoreboard players set @a[team=human] human.vaccine 0
+kill @e[tag=ability.vaccine]
