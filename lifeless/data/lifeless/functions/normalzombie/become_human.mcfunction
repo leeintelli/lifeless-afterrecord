@@ -1,3 +1,4 @@
-execute as @a[team=human,nbt={Inventory:[{id:"minecraft:totem_of_undying",Count:1b,Slot:-106b,tag:{CustomModelData:1}}]}] at @s run tellraw @a [{"selector":"@a[team=normalzombie]","color":"aqua"},{"text":"이(가) 인간이 되었습니다!","color":"aqua"}]
+execute as @a[team=human] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] run tellraw @a [{"selector":"@a[team=normalzombie]","color":"aqua"},{"text":"이(가) 인간이 되었습니다!","color":"aqua"}]
 execute as @a[team=human,nbt={Inventory:[{id:"minecraft:totem_of_undying",Count:1b,Slot:-106b,tag:{CustomModelData:1}}]}] at @s positioned as @s if entity @a[team=normalzombie,distance=..10,limit=1,sort=nearest] run team join human @a[team=normalzombie,distance=..10,limit=1,sort=nearest]
 execute as @a[team=human,nbt={Inventory:[{id:"minecraft:totem_of_undying",Count:1b,Slot:-106b,tag:{CustomModelData:1}}]}] run item replace entity @s weapon.offhand with air
+execute as @a[]

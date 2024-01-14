@@ -3,6 +3,7 @@
     "lifeless:global/zombie_food",
     "lifeless:global/tmprtr_reset",
     "lifeless:global/interaction_reset",
+    "lifeless:global/ntt_team",
     "lifeless:human/become_zombie/detect_death",
     "lifeless:human/temperture/alert",
     "lifeless:human/temperture/buff",

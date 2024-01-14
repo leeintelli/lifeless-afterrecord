@@ -1,0 +1,1 @@
+execute as @a[team=normalzombie] at @s run team join normalzombie @e[type=!player,distance=..16]
