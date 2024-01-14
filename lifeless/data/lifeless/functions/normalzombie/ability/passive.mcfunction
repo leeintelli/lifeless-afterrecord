@@ -1,0 +1,1 @@
+execute as @a[team=normalzombie] at @s run effect give @s poison 1 0 true

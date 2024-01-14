@@ -3,6 +3,9 @@
     "lifeless:normalzombie/ability/hit_human",
     "lifeless:global/zombie_food",
     "lifeless:human/become_zombie/detect_death",
-    "lifeless:normalzombie/ability/hit_human"
+    "lifeless:human/temperture/alert",
+    "lifeless:normalzombie/ability/hit_human",
+    "lifeless:normalzombie/ability/passive",
+    "lifeless:superzombie/ability/passive"
   ]
 }

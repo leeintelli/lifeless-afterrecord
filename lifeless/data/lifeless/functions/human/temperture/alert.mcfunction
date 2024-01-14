@@ -5,5 +5,3 @@ execute as @a[team=human] at @s if score @s human.temperture matches 301..400 ru
 execute as @a[team=human] at @s if score @s human.temperture matches 401..500 run title @s actionbar [{"text":"현재 온도는 ","color":"white","bold":false},{"text":"[ ","color":"yellow","bold":false},{"text":"약간 따뜻함","color":"gold","bold":true},{"text":" ]","color":"yellow","bold":false}]
 execute as @a[team=human] at @s if score @s human.temperture matches 501..600 run title @s actionbar [{"text":"현재 온도는 ","color":"white","bold":false},{"text":"[ ","color":"gold","bold":false},{"text":"따뜻함","color":"red","bold":true},{"text":" ]","color":"gold","bold":false}]
 execute as @a[team=human] at @s if score @s human.temperture matches 601..700 run title @s actionbar [{"text":"현재 온도는 ","color":"white","bold":false},{"text":"[ ","color":"red","bold":false},{"text":"매우 따뜻함","color":"dark_red","bold":true},{"text":" ]","color":"red","bold":false}]
-
-execute as @a[team=human] at @s if score @s 

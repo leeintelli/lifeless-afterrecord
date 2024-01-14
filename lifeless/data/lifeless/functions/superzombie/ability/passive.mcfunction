@@ -1,1 +1,1 @@
-attribute @a[team=superzombie,limit=1,sort=random] generic.max_health base set 16
+execute as @a[team=superzombie] run effect give @s minecraft:glowing 1 0 true
