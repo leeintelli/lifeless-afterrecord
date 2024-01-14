@@ -1,5 +1,5 @@
 kill @e[type=interaction,tag=human.ability.vaccine]
-execute as @a[team=human,nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] at @s run summon interaction ~ ~1 ~ {Tags:["human.ability.vaccine"],height:0.75f,width:0.75f}
-execute as @e[tag=human.ability.vaccine] on target run scoreboard players add @a[sort=nearest,limit=1,distance=..2] human.vaccine 1
+execute as @a[team=human,nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] at @s run summon interaction ~ ~1 ~ {Tags:["human.ability.vaccine"],height:1f,width:1f}
+execute as @e[tag=human.ability.vaccine] on target positioned as @s run scoreboard players add #vaccine.use human.vaccine 1
 execute as @a[team=human,nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] at @s positioned as @s if entity @a[team=normalzombie,distance=..10,limit=1,sort=nearest] run effect give @a[team=normalzombie,distance=..10,limit=1,sort=nearest] glowing 1 0 true
-execute as @a[team=human,nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}},scores={human.vaccine=1..}] at @s positioned as @s if entity @a[team=normalzombie,distance=..10,limit=1,sort=nearest] as @a[team=normalzombie,distance=..10,limit=1,sort=nearest] at @s run function lifeless:normalzombie/become_human
+execute as @a[team=human,nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] at @s positioned as @s if score #vaccine.use human.vaccine matches 1.. if entity @a[team=normalzombie,distance=..10,limit=1,sort=nearest] as @a[team=normalzombie,distance=..10,limit=1,sort=nearest] at @s run function lifeless:normalzombie/become_human
