@@ -4,7 +4,7 @@ scoreboard objectives remove human.dmgtaken
 scoreboard objectives remove human.posx
 scoreboard objectives remove human.posy
 scoreboard objectives remove human.posz
-scoreboard objectives remove human.carrot_on_a_stick
+scoreboard objectives remove human.vaccine
 
 scoreboard objectives remove global.food
 
@@ -21,7 +21,7 @@ scoreboard objectives add human.dmgtaken custom:minecraft.damage_taken
 scoreboard objectives add human.posx dummy
 scoreboard objectives add human.posy dummy
 scoreboard objectives add human.posz dummy
-scoreboard objectives add human.carrot_on_a_stick used:minecraft.carrot_on_a_stick
+scoreboard objectives add human.vaccine dummy
 
 scoreboard objectives add global.food food
 
