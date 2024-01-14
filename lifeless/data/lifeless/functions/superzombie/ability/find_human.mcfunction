@@ -1,0 +1,1 @@
+execute as @a[team=superzombie,nbt={Inventory:[{id:"emerald",Count:1b,Slot:-106b}]}] at @s run function lifeless:superzombie/ability/finding
