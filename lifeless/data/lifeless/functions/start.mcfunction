@@ -1,0 +1,1 @@
+function lifeless:human/temperture/reduce_value
