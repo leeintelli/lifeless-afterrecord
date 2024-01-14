@@ -30,3 +30,7 @@ scoreboard objectives add normalzombie.dmgdealt custom:minecraft.damage_dealt
 scoreboard objectives add superzombie.count.diamond dummy
 scoreboard objectives add superzombie.count.emerald dummy
 scoreboard objectives add superzombie.count.netherrite dummy
+
+
+scoreboard players set @a human.vaccine 0
+scoreboard 
