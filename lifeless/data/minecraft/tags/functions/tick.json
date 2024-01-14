@@ -1,6 +1,8 @@
 {
   "values": [
     "lifeless:normalzombie/ability/hit_human",
-    "lifeless:global/zombie_food"
+    "lifeless:global/zombie_food",
+    "lifeless:human/become_zombie/detect_death",
+    "lifeless:normalzombie/ability/hit_human"
   ]
 }
