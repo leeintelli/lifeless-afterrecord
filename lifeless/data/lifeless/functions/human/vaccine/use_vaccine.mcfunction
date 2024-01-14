@@ -1,3 +1,6 @@
+execute as @a[team=human] at @s positioned as @s unless entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 1..2 run kill @e[tag=ability.vaccine]
+execute as @a[team=human] at @s positioned as @s unless entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 1..2 run scoreboard players add @s human.vaccine 0
+
 execute as @a[team=human] at @s positioned as @s if entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 0..1 run scoreboard players add @s human.vaccine 1
 
 execute as @a[team=human] at @s positioned as @s if entity @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying",Count:1b,tag:{CustomModelData:1}}}] if score @s human.vaccine matches 1 run summon minecraft:interaction ~ ~1.5 ~ {height:0.75f,width:0.75f,Tags:["ability.vaccine"]}
