@@ -15,6 +15,10 @@ scoreboard objectives remove normalzombie.smmnpaper
 scoreboard objectives remove superzombie.smmnzombie
 scoreboard objectives remove superzombie.barron
 scoreboard objectives remove superzombie.tracker
+scoreboard objectives remove superzombie.count.diamond
+scoreboard objectives remove superzombie.count.emerald
+scoreboard objectives remove superzombie.count.netherite
+
 
 scoreboard objectives add human.death deathCount
 scoreboard objectives add human.temperture dummy
@@ -33,6 +37,9 @@ scoreboard objectives add normalzombie.smmnpaper dummy
 scoreboard objectives add superzombie.smmnzombie dummy
 scoreboard objectives add superzombie.barron dummy
 scoreboard objectives add superzombie.tracker dummy
+scoreboard objectives add superzombie.count.diamond dummy
+scoreboard objectives add superzombie.count.emerald dummy
+scoreboard objectives add superzombie.count.netherite dummy
 
 
 scoreboard players set @a human.vaccine 0

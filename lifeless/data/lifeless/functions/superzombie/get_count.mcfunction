@@ -1,1 +1,0 @@
-execute store result score @s itemCount run clear @a[team=superzombie,limit=1] minecraft:stone 0

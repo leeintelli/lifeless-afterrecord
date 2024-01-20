@@ -11,6 +11,8 @@
     "lifeless:normalzombie/ability/hit_human",
     "lifeless:normalzombie/ability/passive",
     "lifeless:superzombie/ability/passive",
-    "lifeless:superzombie/ability/find_human"
+    "lifeless:superzombie/ability/find_human",
+    "lifeless:superzombie/ability/get_coordinate",
+    "lifeless:superzombie/ability/summon_zombie"
   ]
 }

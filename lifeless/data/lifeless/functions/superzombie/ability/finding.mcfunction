@@ -1,5 +1,0 @@
-execute positioned as @a[team=superzombie] store result score #coordinate human.posx run data get entity @a[team=human,sort=nearest,limit=1] Pos[0]
-execute positioned as @a[team=superzombie] store result score #coordinate human.posy run data get entity @a[team=human,sort=nearest,limit=1] Pos[1]
-execute positioned as @a[team=superzombie] store result score #coordinate human.posz run data get entity @a[team=human,sort=nearest,limit=1] Pos[2]
-execute as @a[team=superzombie,nbt={Inventory:[{id:"minecraft:emerald",Count:1b,Slot:-106b}]}] at @s run tellraw @a [{"text":"누군가의 위치 : "},{"score":{"name":"#coordinate","objective":"human.posx"}},{"text":", "},{"score":{"name":"#coordinate","objective":"human.posy"}},{"text":", "},{"score":{"name":"#coordinate","objective":"human.posz"}}]
-execute as @a[team=superzombie,nbt={Inventory:[{id:"minecraft:emerald",Count:1b,Slot:-106b}]}] at @s run item replace entity @s weapon.offhand with air

@@ -1,3 +1,3 @@
-execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posx run data get entity @a[team=human,sort=nearest,limit=1] Pos[0]
-execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posy run data get entity @a[team=human,sort=nearest,limit=1] Pos[1]
-execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posz run data get entity @a[team=human,sort=nearest,limit=1] Pos[2]
+execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posx run data get entity @a[team=human,limit=1,sort=nearest] Pos[0]
+execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posy run data get entity @a[team=human,limit=1,sort=nearest] Pos[1]
+execute positioned as @a[team=superzombie] store result score @a[team=superzombie] human.posz run data get entity @a[team=human,limit=1,sort=nearest] Pos[2]
