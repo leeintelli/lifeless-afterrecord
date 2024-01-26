@@ -2,3 +2,5 @@ tellraw @a[team=superzombie] [{"text":"누군가의 위치 : ","color":"yellow"}
 item replace entity @a[team=superzombie] weapon.mainhand with air
 scoreboard players set @a[team=superzombie] superzombie.tracker 0
 kill @e[tag=ability.find]
+scoreboard players set @e[tag=ability.find.time] global.sec 180
+scoreboard players set @e[tag=ability.find.time] global.tick 20

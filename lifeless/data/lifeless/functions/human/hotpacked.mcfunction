@@ -1,0 +1,3 @@
+execute as @a[team=human] at @s positioned as @s if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] if score @s human.hotpack matches 1.. run scoreboard players add @a human.temperture 100
+execute as @a[team=human] at @s positioned as @s if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] if score @s human.hotpack matches 1.. run item replace entity @s weapon.mainhand with air
+execute as @a[team=human] at @s positioned as @s if score @s human.hotpack matches 1.. run scoreboard players set @s human.hotpack 0

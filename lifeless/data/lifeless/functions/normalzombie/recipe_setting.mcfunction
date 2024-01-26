@@ -5,9 +5,15 @@ recipe give @a[team=normalzombie] *
 recipe take @a[team=normalzombie] wooden_axe
 recipe take @a[team=normalzombie] stone_axe
 recipe take @a[team=normalzombie] iron_axe
-recipe take @a[team=normalzombie] gold_axe
+recipe take @a[team=normalzombie] golden_axe
 recipe take @a[team=normalzombie] diamond_axe
-recipe take @a[team=normalzombie] netherrite_axe
+recipe take @a[team=normalzombie] netherite_axe
+
+# iron equipment recipe take
+recipe take @a[team=normalzombie] iron_helmet
+recipe take @a[team=normalzombie] iron_chestplate
+recipe take @a[team=normalzombie] iron_leggings
+recipe take @a[team=normalzombie] iron_boots
 
 # over diamond recipe take
 recipe take @a[team=normalzombie] diamond_sword
@@ -35,9 +41,3 @@ recipe take @a[team=normalzombie] netherite_pickaxe_smithing
 recipe take @a[team=normalzombie] netherite_scrap
 recipe take @a[team=normalzombie] netherite_shovel_smithing
 recipe take @a[team=normalzombie] netherite_sword_smithing
-recipe take @a[team=normalzombie] netherite_block_from_blasting_ancient_debris
-recipe take @a[team=normalzombie] netherite_block_from_smelting_ancient_debris
-recipe take @a[team=normalzombie] netherite_ingot_from_blasting_ancient_debris
-recipe take @a[team=normalzombie] netherite_ingot_from_smelting_ancient_debris
-recipe take @a[team=normalzombie] netherite_scrap_from_blasting_ancient_debris
-recipe take @a[team=normalzombie] netherite_scrap_from_smelting_ancient_debris

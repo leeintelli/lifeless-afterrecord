@@ -8,6 +8,8 @@ scoreboard objectives remove human.vaccine
 scoreboard objectives remove human.hotpack
 
 scoreboard objectives remove global.food
+scoreboard objectives remove global.tick
+scoreboard objectives remove global.sec
 
 scoreboard objectives remove normalzombie.dmgdealt
 scoreboard objectives remove normalzombie.smmnpaper
@@ -27,9 +29,11 @@ scoreboard objectives add human.posx dummy
 scoreboard objectives add human.posy dummy
 scoreboard objectives add human.posz dummy
 scoreboard objectives add human.vaccine dummy
-scoreboard objectives add human.hotpack dummy
+scoreboard objectives add human.hotpack used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add global.food food
+scoreboard objectives add global.tick dummy
+scoreboard objectives add global.sec dummy
 
 scoreboard objectives add normalzombie.dmgdealt custom:minecraft.damage_dealt
 scoreboard objectives add normalzombie.smmnpaper dummy

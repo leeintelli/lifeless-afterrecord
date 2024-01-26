@@ -4,3 +4,6 @@ execute as @a[team=superzombie] at @s if entity @s[nbt={SelectedItem:{id:"minecr
 execute as @a[team=superzombie] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:diamond",Count:2b}}] if score @s superzombie.smmnzombie matches 2 run item replace entity @s weapon.mainhand with air
 scoreboard players set @a[team=superzombie] superzombie.smmnzombie 0
 kill @e[tag=ability.summonzombie]
+
+scoreboard players set @e[tag=ability.summonzombie.time] global.sec 300
+scoreboard players set @e[tag=ability.summonzombie.time] global.tick 20
